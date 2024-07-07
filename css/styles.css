@@ -179,12 +179,12 @@ footer a img {
     margin: 100px 0px 100px 0px;
 }
 
-.carousel-width {
+.carousel-width { /*Esto es para que el carrusel no ocupe toda la pantalla*/
     width: 700px;
     grid-column: 2/3;
 }
 
-.carousel-inner img {
+.imgnormalizada img { /*Esto es para ajustar la imagen*/
     width: 100%;
     max-height: 460px;
 }
