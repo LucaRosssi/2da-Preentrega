@@ -1,0 +1,51 @@
+/*Info*/
+
+.img-text {
+    display: flex;
+    img {
+        margin-left: 10px;
+        .s23-image-info {
+            margin-right: 10px;
+            padding: 5px;
+            height: 400px;
+            width: auto;
+        }
+    }
+    .text-img {
+        margin: 60px 0px 0px 20px;
+        padding: 10px;
+        width: auto;
+    }
+}
+
+.video-container {
+    .video {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .trailer {
+        font-size: 6em;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.carrousel-container { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 100px 0px 100px 0px;
+    .carousel-width { /*Esto es para que el carrusel no ocupe toda la pantalla*/
+        width: 700px;
+        grid-column: 2/3;
+    }
+    
+    .imgnormalizada img { /*Esto es para ajustar la imagen*/
+        width: 100%;
+        max-height: 460px;
+    }
+}
+

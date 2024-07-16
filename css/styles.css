@@ -49,11 +49,37 @@ header {
 
 .navbar a:hover {
     color: rgb(23, 241, 231);
-    font-size: 19px;
+    transform: scale(1.1);
 }
 
+/*footer*/
 
-/*Contenido*/
+footer {
+    background-color: #2c2a2a;
+    text-align: center;
+    color: aliceblue;
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.copy {
+    padding-right: 60px;
+}
+
+footer a img {
+    height: 100px;
+    padding: 20px;
+    margin: 0px 5px;
+}
+
+footer a img:hover {
+    transform: scale(1.1);
+}
+
+/*Index*/
 
 main {
     color: aliceblue;
@@ -116,28 +142,6 @@ main h1 {
     display: none;
 }
 
-/*footer*/
-
-footer {
-    background-color: #2c2a2a;
-    text-align: center;
-    color: aliceblue;
-    grid-column: 1/4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-}
-
-.copy {
-    padding-right: 60px;
-}
-
-footer a img {
-    height: 100px;
-    padding: 20px;
-    margin: 0px 5px;
-}
 
 /*Info*/
 
@@ -145,19 +149,19 @@ footer a img {
     display: flex;
 }
 
-.img-text img {
-    margin-left: 10px;
+.s23-image-info {
+    margin-right: 10px;
+    padding: 5px;
+    height: 400px;
+    width: auto;
 }
 
 .text-img {
     margin: 60px 0px 0px 20px;
     padding: 10px;
-}
-
-.s23-image-info {
-    height: 400px;
     width: auto;
 }
+
 
 .video {
     display: flex;
@@ -179,12 +183,12 @@ footer a img {
     margin: 100px 0px 100px 0px;
 }
 
-.carousel-width {
+.carousel-width { /*Esto es para que el carrusel no ocupe toda la pantalla*/
     width: 700px;
     grid-column: 2/3;
 }
 
-.carousel-inner img {
+.imgnormalizada img { /*Esto es para ajustar la imagen*/
     width: 100%;
     max-height: 460px;
 }
@@ -293,6 +297,36 @@ footer a img {
         display: none;
     }   
 
+    /*Info*/
+    .img-text {
+        display: block;
+    }
+    
+    .img-text img {
+        display: flex;
+        margin: auto;
+        height: 400px;
+    }
+
+    .text-img {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+
+    .carousel-width { /*Esto es para que el carrusel no ocupe toda la pantalla*/
+        width: 390px;
+    }
+
+    .imgnormalizada img { /*Esto es para ajustar la imagen*/
+        width: 100%;
+        max-height: 460px;
+    }
+
+    .trailer {
+        margin: 20px 0;
+    }
+
     /*Comprar*/
 
     .buy {
@@ -319,6 +353,8 @@ footer a img {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /*Home*/
 
     .main {
         grid-row: 2/5;
@@ -356,6 +392,32 @@ footer a img {
     .copy {
         display: none;
     } 
+
+    /*Info*/
+    .img-text {
+        display: block;
+    }
+    
+    .img-text img {
+        display: flex;
+        margin: auto;
+        height: 400px;
+    }
+
+    .text-img {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+
+    .carousel-width { /*Esto es para que el carrusel no ocupe toda la pantalla*/
+        width: 500px;
+    }
+
+    .imgnormalizada img { /*Esto es para ajustar la imagen*/
+        width: 100%;
+        max-height: 460px;
+    }
 
     /*Comprar*/
 
@@ -411,6 +473,23 @@ footer a img {
         grid-column: 1/2;
     }
 
+    /*Info*/
+    .img-text {
+        display: block;
+    }
+    
+    .img-text img {
+        display: flex;
+        margin: auto;
+        height: 700px;
+    }
+
+    .text-img {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+
     /*Comprar*/
 
     .buy {
@@ -431,7 +510,6 @@ footer a img {
         margin: auto;
         margin-top: 20px;
     }
-
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1394px) {
@@ -488,4 +566,3 @@ footer a img {
         top: 200px;
     }
 } 
-

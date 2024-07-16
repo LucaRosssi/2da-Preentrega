@@ -1,0 +1,41 @@
+/*Comprar*/
+
+.buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 5px #2c2a2a solid ;
+    width: 50%;
+    height: 38em;
+    margin: 100px auto;
+    background-color: rgba(240, 228, 228, .6);
+    .producto {
+        height: 90%;
+        width: auto;
+        margin: 0 20px;
+    }
+    .side-text {
+        display: block;
+        margin-left: 20px;
+        bottom: 130px;
+        position: relative;
+        font-size: 2em;
+        color: #2c2a2a;
+        padding: 5px;
+        .btn-comprar {
+            position: relative;
+            top: 250px;
+            height: 3em;
+            width: auto;
+            margin: 0px 100px;
+        }
+    }
+    
+}
+
+
+
+

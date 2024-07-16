@@ -1,0 +1,14 @@
+//Reset
+@import 'config/reset';
+@import 'config/grid';
+
+//Content
+@import 'navbar';
+@import 'footer';
+@import 'config/animaciones';
+@import 'home';
+@import 'info';
+@import 'comprar';
+
+//Media queries
+@import 'mq';
