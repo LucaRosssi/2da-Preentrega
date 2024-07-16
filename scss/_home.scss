@@ -1,0 +1,62 @@
+/*Index*/
+
+main {
+    color: aliceblue;
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 2/5;
+    grid-column: 1/4;
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 8vh;
+    }
+    .content {
+        display: flex;
+        color: aliceblue;
+        font-size: 1.8vh;
+        .bg-border {
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            background: rgba(44, 42, 45, .6);
+            height: 100%;
+        }
+        
+        .left-text {
+            margin-left: 65px;
+            padding: 10px;
+            width: 30%;
+            position: relative;
+            top: 30px;
+        }
+        
+        .right-text {
+            width: 30%;
+            justify-content: flex-end;
+            margin: 0 60px 0 60px;
+            padding: 10px;
+            position: relative;
+            top: 400px;
+        }
+        
+        .s23-image {
+            display: flex;
+                height: 66.9vh;
+                justify-content: center;
+                margin: 0 auto;
+                grid-row: 3/4;
+                grid-column: 1/2;
+        }
+        
+        .tablet {
+            display: none;
+        }
+    }
+}
+
+
+

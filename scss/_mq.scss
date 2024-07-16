@@ -1,0 +1,316 @@
+@media only screen and (max-width: 576px) {
+    /*Home*/
+
+    .logo {
+        display: none;
+    }
+
+    .copy {
+        display: none;
+    }  
+
+    .grid-design {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4em repeat(3, 1fr) 5em;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .header {
+        grid-column: 1/2;
+        justify-content: center;
+    }
+
+    .index {
+        grid-row: 2/5;
+        grid-column: 1/2;
+        .content {
+            display: block;
+            h1 {
+                width: 100%;
+                margin: auto;
+                font-size: 1em;
+            }
+            .left-text {
+                width: 90%;
+                margin: 60px 5%;
+                grid-column: 1/2;
+            }
+            .right-text {
+                position: initial;
+                width: 90%;
+                margin: 60px 5%;
+                grid-row: 4/5;
+                grid-column: 1/2;
+            }
+            .s23-image {
+                display: flex;
+                height: 40vh;
+                justify-content: center;
+                margin: 0 auto;
+                grid-row: 3/4;
+                grid-column: 1/2;
+            }
+        }
+    }
+
+    /*Info*/
+    .img-text {
+        display: block;
+    }
+    
+    .img-text img {
+        display: flex;
+        margin: auto;
+        height: 400px;
+    }
+
+    .text-img {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+
+    .carrousel-container {
+        .carousel-width { /*Esto es para que el carrusel no ocupe toda la pantalla*/
+            width: 390px;
+        }
+    
+        .imgnormalizada img { /*Esto es para ajustar la imagen*/
+            width: 100%;
+            max-height: 460px;
+        }
+    }
+
+    .trailer {
+        margin: 20px 0;
+    }
+
+    /*Comprar*/
+
+    .buy {
+        display: block;
+        margin: 60px auto 100px auto;
+        width: 90%;
+        .producto {
+            height: 20em;
+        }
+        .side-text {
+            margin: 10px 20px;
+            position: initial;
+            .btn-comprar {
+                position: initial;
+                margin: auto;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /*Home*/
+
+    .index {
+        .content {
+            display: block;
+            .left-text {
+                display: none;
+            }
+        
+            .right-text {
+                display: none;
+            }
+        
+            .s23-image {
+                display: flex;
+                height: 40vh;
+                justify-content: center;
+                margin: 0 auto;
+                grid-row: 3/4;
+                grid-column: 1/2;
+            }
+        
+            .tablet {
+                display: block;
+                width: 90%;
+                margin: 60px 5%;
+                grid-column: 1/2;
+            }
+        
+            .copy {
+                display: none;
+            } 
+        }
+    }
+
+    /*Info*/
+    .img-text {
+        display: block;
+        img {
+            display: flex;
+            margin: auto;
+            height: 400px;
+        }
+    }
+    .text-img {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+
+    .carrousel-container {
+        .carousel-width { /*Esto es para que el carrusel no ocupe toda la pantalla*/
+            width: 500px;
+        }
+    
+        .imgnormalizada img { /*Esto es para ajustar la imagen*/
+            width: 100%;
+            max-height: 460px;
+        }
+    }
+    
+
+    /*Comprar*/
+    .buy {
+        display: block;
+        width: 496px;
+        .producto {
+            height: 21em;
+            display: flex;
+            margin: auto;
+        }
+        .side-text {
+            margin-top: 10px;
+            position: initial;
+            .btn-comprar {
+                position: initial;
+                margin: auto;
+                margin-top: 50px;
+            }
+        }
+    }   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*Home*/
+
+    .index {
+        .content {
+            .left-text {
+                display: none;
+            }
+        
+            .right-text {
+                display: none;
+            }
+        
+            .s23-image {
+                display: flex;
+                height: 70vh;
+                justify-content: center;
+                margin: 0 auto;
+                grid-row: 3/4;
+                grid-column: 1/2;
+            }
+        
+            .tablet {
+                display: block;
+                width: 90%;
+                margin: 60px 5px;
+                padding: 5px;
+                grid-column: 1/2;
+            }
+        }
+    }
+
+    /*Info*/
+    .img-text {
+        display: block;
+        img {
+            display: flex;
+            margin: auto;
+            height: 700px;
+        }
+    }
+
+    .text-img {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+
+    /*Comprar*/
+
+    .buy {
+        display: block;
+        .producto {
+            height: 20em;
+        }
+        .side-text {
+            margin-top: 10px;
+            position: initial;
+            .btn-comprar {
+                position: initial;
+                margin: auto;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1394px) {
+
+    /*Home*/
+    
+    .index {
+        .content {
+            .right-text {
+                position: relative;
+                top: 30px;
+                margin-bottom: 100px;
+            }
+            .left-text {
+                position: relative;
+            }
+        }
+    }
+
+    
+
+    /*Comprar*/
+    .buy {
+        display: block;
+        width: 496px;
+        .producto {
+            height: 19em;
+            display: flex;
+            margin: auto;
+        }
+        .side-text {
+            margin-top: 10px;
+            position: initial;
+            .btn-comprar {
+                position: initial;
+                margin: auto;
+                margin-top: 50px;
+            }
+        }
+    }
+} 
+
+@media only screen and (min-width: 1394px) and (max-width: 1692px) {
+    
+    .buy {
+        height: 32em;
+        margin: 125px auto 125px auto;
+        .producto {
+            height: 25em;
+        }
+        .btn-comprar {
+            top: 200px;
+        }
+    }
+} 
