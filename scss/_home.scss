@@ -1,7 +1,7 @@
 /*Index*/
 
 main {
-    color: aliceblue;
+    color: $color-font;
     background-image: url('../assets/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,12 +16,8 @@ main {
     }
     .content {
         display: flex;
-        color: aliceblue;
+        color: $color-font;
         font-size: 1.8vh;
-        
-        .bg-border {
-            @include fondo-texto;
-        }
 
         .left-text {
             margin-left: 65px;
@@ -38,6 +34,11 @@ main {
             padding: 10px;
             position: relative;
             top: 400px;
+        }
+        
+        .bg-border {
+            @include fondo-texto;
+            background-color: rgba(44, 42, 42, 0.6);
         }
         
         .s23-image {

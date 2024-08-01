@@ -1,15 +1,16 @@
 //Reset
 @import 'config/reset';
 @import 'config/grid';
+@import 'variables';
+@import 'mixin';
 
 //Content
 @import 'navbar';
-@import 'footer';
 @import 'config/animaciones';
-@import 'variables.scss';
 @import 'home';
 @import 'info';
 @import 'comprar';
+@import 'footer';
 
 //Media queries
 @import 'mq';

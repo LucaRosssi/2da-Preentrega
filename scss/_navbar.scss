@@ -2,7 +2,7 @@
 
 header {
     background-color: #2c2a2a;
-    color: aliceblue;
+    color: $color-font;
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -22,11 +22,12 @@ header {
             text-decoration: none;
             padding: 20px;
             margin: 10px;
-            color: aliceblue;
+            color: $color-font;
             transition: 0.1s;
             :hover {
-                color: rgb(23, 241, 231);
-                transform: scale(1.1);
+                color: $color-font;
+                transform: $transform;
+                ;
             }
         }
     }

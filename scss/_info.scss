@@ -16,6 +16,11 @@
         padding: 10px;
         width: auto;
     }
+
+    .bg-border {
+        @include fondo-texto;
+        background-color: rgba(44, 42, 42, 0.6);
+    }
 }
 
 .video-container {
