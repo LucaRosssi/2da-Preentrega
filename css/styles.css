@@ -52,34 +52,8 @@ header {
     transform: scale(1.1);
 }
 
-/*footer*/
 
-footer {
-    background-color: #2c2a2a;
-    text-align: center;
-    color: aliceblue;
-    grid-column: 1/4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-}
-
-.copy {
-    padding-right: 60px;
-}
-
-footer a img {
-    height: 100px;
-    padding: 20px;
-    margin: 0px 5px;
-}
-
-footer a img:hover {
-    transform: scale(1.1);
-}
-
-/*Index*/
+/*Contenido*/
 
 main {
     color: aliceblue;
@@ -142,6 +116,32 @@ main h1 {
     display: none;
 }
 
+/*footer*/
+
+footer {
+    background-color: #2c2a2a;
+    text-align: center;
+    color: aliceblue;
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.copy {
+    padding-right: 60px;
+}
+
+footer a img {
+    height: 100px;
+    padding: 20px;
+    margin: 0px 5px;
+}
+
+footer a img:hover {
+    transform: scale(1.1);
+}
 
 /*Info*/
 
@@ -566,3 +566,4 @@ main h1 {
         top: 200px;
     }
 } 
+
