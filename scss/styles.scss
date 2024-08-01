@@ -1,7 +1,8 @@
 //Reset
 @import 'config/reset';
 @import 'config/grid';
-@import 'variables.scss';
+@import 'variables';
+@import 'mixin';
 
 //Content
 @import 'navbar';
