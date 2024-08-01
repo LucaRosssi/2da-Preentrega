@@ -1,10 +1,6 @@
 @media only screen and (max-width: 576px) {
     /*Home*/
 
-    .logo {
-        display: none;
-    }
-
     .copy {
         display: none;
     }  
@@ -93,17 +89,18 @@
         display: block;
         margin: 60px auto 100px auto;
         width: 90%;
+        height: 100%;
         .producto {
             height: 20em;
         }
         .side-text {
             margin: 10px 20px;
             position: initial;
-            .btn-comprar {
-                position: initial;
-                margin: auto;
-                margin-top: 20px;
-            }
+            .buy-section_form {
+                .formulario-compra {
+                    line-height: 1rem;
+                }
+            } 
         }
     }
 }
@@ -176,6 +173,7 @@
     .buy {
         display: block;
         width: 496px;
+        height: 100%;
         .producto {
             height: 21em;
             display: flex;
@@ -184,11 +182,11 @@
         .side-text {
             margin-top: 10px;
             position: initial;
-            .btn-comprar {
-                position: initial;
-                margin: auto;
-                margin-top: 50px;
-            }
+            .buy-section_form {
+                .formulario-compra {
+                    line-height: 1rem;
+                }
+            } 
         }
     }   
 }
@@ -246,17 +244,18 @@
 
     .buy {
         display: block;
+        height: 100%;
         .producto {
             height: 20em;
         }
         .side-text {
             margin-top: 10px;
             position: initial;
-            .btn-comprar {
-                position: initial;
-                margin: auto;
-                margin-top: 20px;
-            }
+                .buy-section_form {
+                    .formulario-compra {
+                        line-height: 1rem;
+                    }
+                } 
         }
     }
 }
@@ -284,6 +283,7 @@
     .buy {
         display: block;
         width: 496px;
+        height: 100%;
         .producto {
             height: 19em;
             display: flex;
@@ -292,11 +292,11 @@
         .side-text {
             margin-top: 10px;
             position: initial;
-            .btn-comprar {
-                position: initial;
-                margin: auto;
-                margin-top: 50px;
-            }
+                .buy-section_form {
+                    .formulario-compra {
+                        line-height: 1rem;
+                    }
+                }  
         }
     }
 } 
@@ -309,8 +309,12 @@
         .producto {
             height: 25em;
         }
-        .btn-comprar {
-            top: 200px;
+        .side-text {
+            .buy-section_form {
+                .formulario-compra {
+                    line-height: 1rem;
+                }
+            }  
         }
     }
 } 

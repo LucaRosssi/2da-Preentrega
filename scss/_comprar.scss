@@ -7,8 +7,8 @@
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    border: 5px #2c2a2a solid ;
-    width: 50%;
+    border: 5px $background-black solid ;
+    width: 60%;
     height: 38em;
     margin: 100px auto;
     background-color: rgba(240, 228, 228, .6);
@@ -19,23 +19,26 @@
     }
     .side-text {
         display: block;
-        margin-left: 20px;
-        bottom: 130px;
+        margin: 0px 20px;
         position: relative;
         font-size: 2em;
-        color: #2c2a2a;
+        color: $background-black;
         padding: 5px;
-        .btn-comprar {
-            position: relative;
-            top: 250px;
-            height: 3em;
-            width: auto;
-            margin: 0px 100px;
+        .buy-section_form {
+            width: 80%;
+            .formulario-compra {
+                line-height: 2rem;
+                label {
+                    width: 80%;
+                    span {
+                        font-size: 1rem;
+                    }
+                }
+            }
         }
+        
     }
     
 }
-
-
 
 
